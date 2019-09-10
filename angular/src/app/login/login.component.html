@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <h2 id='h2'>LOGIN PAGE</h2>
+            <div align = "center">
+                <h5 id="h5">
+                    <span *ngIf="authfailure">Authentication fail please check username and password!!!</span>
+                </h5>
+            </div>
+            <div align = "center">
+                <h5 id='h5'>
+                    <span><i class="fa fa-user"></i></span>Username
+                    <input type="text" authofocus="authofocus" class="form-control" placeholder="Enter Username " name="Username"
+                        [(ngModel)]="username">
+                </h5>
+                <h5 id='h5'>
+                    <span><i class="fa fa-key"></i></span> Password
+                    <input type="password" class="form-control" placeholder="Enter password" name="password"
+                        [(ngModel)]="password" /><br>
+                </h5>
+                <button id="button" class="form-control" (click)="onLoginClick()" [disabled]="isLoginDisable"
+                    [style.color]="color">Submit</button><br><br>
+                <h5 id='h5'>
+                    <input type="checkbox" checkbox="checked" name="remember" />Remember me
+                </h5><br><br>
+                <h5 id='h5'>
+                    Forgot <a href="https://www.google.com">password?</a>
+                </h5>
+                <h5 id='h5'>
+                    <a href="http://localhost:4200/signup">Don't have an account?</a>
+                </h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+table,th,td{
+    border : 2px whitesmoke solid;
+    color: whitesmoke;
+    text-align: center;
+}
+.card{
+    height: 2600px;
+    width: 1300px;
+    background-color: rgba(10, 10, 10, 0.5) !important;
+    align-content: center;
+}

@@ -1,0 +1,15 @@
+<body>
+ 
+    <div class="card">
+      <label id="label">
+        author:<input type="text" class="form-control" name="author" [(ngModel)]="item.author" /><br>
+        country:<input type="text" class="form-control" name="country" [(ngModel)]="item.country" /><br>
+        language:<input type="text" class="form-control" name="language" [(ngModel)]="item.language" /><br>
+        title:<input type="text" class="form-control" name="title" [(ngModel)]="item.title" /><br>
+        year:<input type="text" class="form-control" name="year" [(ngModel)]="item.year" /><br>
+      </label>
+      <button id="button" mat-button (click)='onClickOk(item)' [mat-dialog-close]="true">OK</button><br>
+      <button id="button" mat-button mat-dialog-close>Cancel</button>
+
+    </div>
+</body>

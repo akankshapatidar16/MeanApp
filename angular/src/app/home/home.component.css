@@ -1,0 +1,17 @@
+.home{
+    color:whitesmoke;
+    text-align: center;
+    text-shadow: black 0.4em 0.4em 0.4em ;
+}
+
+.card{
+    height: 450px;
+    width: 500px;
+    background-color: rgba(10, 10, 10, 0.5) !important;
+    align-content: center;
+}
+#b1:hover{
+background-color:whitesmoke;
+box-shadow: 0 3px;
+border-radius: 5px;
+}

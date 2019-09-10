@@ -1,0 +1,20 @@
+#label{
+    color: whitesmoke;
+}
+
+#button{
+    background-color:whitesmoke;
+    box-shadow: 0 3px;
+    border-radius: 5px;
+    width: 20%;
+    padding: 0px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.card{
+    height: 500px;
+    width: 500px;
+    background-color: rgba(5, 5, 5, 0.664) !important;
+    align-content: center;
+}

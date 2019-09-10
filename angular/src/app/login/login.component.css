@@ -1,0 +1,33 @@
+
+#h2 {
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: black 0.4em 0.4em 0.4em ;
+}
+
+#h5{
+    color:whitesmoke;
+   
+}
+
+input[type="text"],[type="password"]{
+    text-align: center;
+    width:50%;
+    padding: 0px;
+}
+
+#button{
+    background-color:whitesmoke;
+    box-shadow: 0 3px;
+    border-radius: 5px;
+    width: 20%;
+    padding: 0px;
+    border: 1px solid black;
+    display: inline-block;
+}
+.card{
+    height: 452px;
+    width: 500px;
+    background-color: rgba(10, 10, 10, 0.5) !important;
+    align-content: center;
+}

@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background: url("../src/assets/lib2.jpg") no-repeat ;
+    background-size: cover;
+    height: 100%;
+  }
+  
+/*body ::before{
+    background-color: rgba(197, 168, 149, 0.048);
+    content:'';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}*/
+
+  
+  

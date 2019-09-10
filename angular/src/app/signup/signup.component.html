@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome to signup page</title>
+</head>
+
+<body>
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div align = "center">
+            <h5 id='h5'>Firstname
+                <input type="text" autofocus="autofocus" placeholder="Enter firstname" name="firstname" [(ngModel)]="firstname">
+            </h5>
+            <h5 id='h5'>Lastname
+                <input type="text" placeholder="Enter lastname" name="lastname" [(ngModel)]="lastname">
+            </h5>
+            <h5 id='h5'>Emailid
+                <input type="text" placeholder="Enter email id" email="email" [(ngModel)]="email">
+            </h5>
+            <h5 id='h5'>Username
+                <input type="text" placeholder="Enter Username" name="username" [(ngModel)]="Username">
+            </h5>
+            <h5 id='h5'>Password
+                <input type="password" placeholder="Enter Password" name="password" [(ngModel)]="password">
+            </h5>
+            <h5 id='h5'>Gender
+                <input type="radio" name="gender" [(ngModel)]="gender" value="male" />Male
+                <input type="radio" name="gender" [(ngModel)]="gender" value="female" />Female
+                <input type="radio" name="gender" [(ngModel)]="gender" value="other" />Other
+            </h5>
+            <h5 id='h5'>Country
+                <select name="country" placeholder="Select Country" [(ngModel)]="country">
+                    <option value="Brazil">Brazil</option>
+                    <option value="cuba">Cuba</option>
+                    <option value="India">India</option>
+                    <option value="Nepal">Nepal</option>
+                    <option value="russia">Russia</option>
+                </select></h5>
+            <h5 id='h5'>Pincode
+                <input type="text" placeholder="Enter pincode" pin="pincode" [(ngModel)]="pincode"><br>
+            </h5>
+            <h5 id='h5'>
+                <input type="checkbox" checkbox="checked" name="remember" />Agree to <a
+                    href="https://www.google.com">terms&condition</a>
+            </h5>
+            <button id="button" (click)="onSignupClick()">Submit</button>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
